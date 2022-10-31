@@ -36,7 +36,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [CLICK TO VIEW THE LIVE SITE ON NETLIFY](https://cjay-peppy.netlify.app/)
+- Live Site URL: [CLICK TO VIEW THE LIVE SITE ON NETLIFY](https://cjay-movies.netlify.app/)
 
 
 ## Author
