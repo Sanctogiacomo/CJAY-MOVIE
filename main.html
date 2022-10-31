@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie App | Details Page</title>
+</head>
+<body>
+    <main class="general-container">
+
+    <!-- First movie block starts -->
+    <div class="container2">
+        <div class="movie-items2">
+            <img src="./images/blade runner.png" alt="images/blade-runner"/>
+        </div>
+        <div class="movie-description2">
+            <h1 class="movie-title2">Blade rugmainner 2040</h1>
+            <div class="movie-sub-group">
+            <h3 class="movie-year2">2020</h3>
+            <p class="movie-sub-genre"> Action / Drama / Mystery / Sci-Fi / Thriller</p>
+            </div>
+            <p class="movie-item-p">
+                Thirty years after the events of Blade Runner (1982),
+                a new Blade Runner, L.A.P.D. Officer "K" (Ryan Gosling),
+                unearths a long-buried secret that has the potential to
+                plunge what's left of society into chaos. K's discovery
+                leads him on a quest to find Rick Deckard
+                (Harrison Ford), a former L.A.P.D. Blade Runner, who
+                has been missing for thirty years.
+            </p>
+        </div>
+    </div>
+
+    <div class="movie-items2">
+        <img src="${movie2.large_cover_image}" alt="images/${movie2.title}" class="movie-image2"/>
+        </div>
+        <div class="movie-description2">
+        <h1 class="movie-title2">${movie2.title}</h1>
+        <div class="movie-sub-group">
+        <h3 class="movie-year2">${movie2.year}</h3>
+        <p class="movie-sub-genre">${movie2.genres.join(' | ')}</p>
+        </div>
+        <p class="movie-item-p">
+          ${reducedSynopsis};
+        </p>
+       </div>
+
+    </main>
+
+    <script src="./src/App.js"></script>
+</body>
+</html>
